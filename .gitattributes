@@ -1,0 +1,5 @@
+ssdd/** linguist-vendored
+node_modules/** linguist-vendored
+*.html linguist-documentation
+*.log linguist-generated
+*.zip linguist-generated
