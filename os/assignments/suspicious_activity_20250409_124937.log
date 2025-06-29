@@ -1,0 +1,12 @@
+Feb 25 23:53:50 kali lightdm[1129]: pam_unix(lightdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=kali
+Apr 03 06:54:37 kali sudo[13644]: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=kali rhost=  user=kali
+Apr 09 12:39:51 kali sudo[9944]:     kali : TTY=pts/0 ; PWD=/home/kali/university/sem4/os/assignments ; USER=root ; COMMAND=/usr/bin/grep -Ri 'Failed password' /var/log
+Apr 09 12:44:12 kali sudo[12408]: pam_unix(sudo:auth): authentication failure; logname=root uid=1000 euid=0 tty=/dev/pts/2 ruser=kali rhost=  user=kali
+Apr 09 13:15:00 kali sshd[5555]: Failed password for invalid user root from 192.168.1.5 port 22 ssh2
+Apr 09 13:15:01 kali sshd[5556]: Failed password for invalid user root from 192.168.1.5 port 22 ssh2
+Apr 09 13:15:02 kali sshd[5557]: Failed password for invalid user root from 192.168.1.5 port 22 ssh2
+Apr 09 13:15:03 kali sshd[5558]: Failed password for invalid user root from 192.168.1.5 port 22 ssh2
+Apr 09 13:15:04 kali sshd[5559]: Failed password for invalid user root from 192.168.1.5 port 22 ssh2
+      5 192.168.1.5
+      5 root
+Potential brute-force attack from 192.168.1.5 with 5 failed attempts.
